@@ -1,0 +1,289 @@
+/* ========================================
+   Responsive Styles - Mobile First
+   ======================================== */
+
+/* Mobile (default styles in style.css) */
+
+/* Small devices (landscape phones, 640px and up) */
+@media (max-width: 768px) {
+  /* Navigation - Mobile Menu */
+  .nav__menu {
+    position: fixed;
+    top: 65px;
+    left: -100%;
+    width: 100%;
+    height: calc(100vh - 65px);
+    background-color: var(--color-bg-primary);
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1.5rem;
+    transition: left var(--transition-base);
+    border-top: 1px solid var(--color-border);
+    align-items: flex-start;
+  }
+  
+  .nav__menu.active {
+    left: 0;
+  }
+  
+  .nav__toggle {
+    display: block;
+  }
+  
+  .nav__toggle.active .nav__toggle-icon {
+    background-color: transparent;
+  }
+  
+  .nav__toggle.active .nav__toggle-icon::before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  
+  .nav__toggle.active .nav__toggle-icon::after {
+    transform: rotate(-45deg);
+    bottom: 0;
+  }
+  
+  /* Hero Section */
+  .hero {
+    padding: 6rem 0 3rem;
+    min-height: auto;
+  }
+  
+  .hero__title {
+    font-size: 2rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+  
+  .hero__cta {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Section Headers */
+  .section-header__title {
+    font-size: 1.75rem;
+  }
+  
+  .section-header__description {
+    font-size: 1rem;
+  }
+  
+  /* Problem Grid */
+  .problem__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Services Grid */
+  .services__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  /* Trust Stats */
+  .trust__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .stat__number {
+    font-size: 2rem;
+  }
+  
+  .tech-stack {
+    gap: 0.75rem;
+  }
+  
+  .tech-stack__item {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+  }
+  
+  /* Pricing Grid */
+  .pricing__grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .pricing-card--featured {
+    transform: scale(1);
+  }
+  
+  /* CTA Section */
+  .cta-section__title {
+    font-size: 1.75rem;
+  }
+  
+  .cta-section__description {
+    font-size: 1rem;
+  }
+  
+  .cta-section__buttons {
+    flex-direction: column;
+  }
+  
+  /* Footer */
+  .footer__content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .footer__brand {
+    max-width: 100%;
+  }
+}
+
+/* Tablets and small desktops (768px and up) */
+@media (min-width: 768px) {
+  /* Container padding adjustment */
+  .container {
+    padding: 0 2rem;
+  }
+  
+  /* Hero */
+  .hero__title {
+    font-size: 3.5rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1.375rem;
+  }
+  
+  /* Problem Grid - 2 columns on tablet */
+  .problem__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Services Grid - 2 columns on tablet */
+  .services__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  /* Trust Stats - 4 columns */
+  .trust__grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  /* Pricing - 2 columns */
+  .pricing__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Medium devices (tablets, 1024px and up) */
+@media (min-width: 1024px) {
+  /* Container */
+  .container {
+    padding: 0 3rem;
+  }
+  
+  /* Typography */
+  h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  /* Hero */
+  .hero {
+    padding: 10rem 0 5rem;
+  }
+  
+  .hero__title {
+    font-size: 4rem;
+  }
+  
+  /* Problem Grid - 3 columns */
+  .problem__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Services Grid - 3 columns */
+  .services__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Pricing Grid - 3 columns */
+  .pricing__grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Large devices (desktops, 1280px and up) */
+@media (min-width: 1280px) {
+  /* Container */
+  .container {
+    padding: 0 4rem;
+  }
+  
+  /* Sections */
+  .hero {
+    padding: 12rem 0 6rem;
+  }
+  
+  .section-header__title {
+    font-size: 3rem;
+  }
+  
+  .section-header__description {
+    font-size: 1.25rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1536px and up) */
+@media (min-width: 1536px) {
+  /* Container max-width already set in variables */
+  .container {
+    padding: 0 6rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  .header,
+  .nav,
+  .theme-toggle,
+  .btn,
+  .cta-section,
+  .footer__social {
+    display: none;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .btn--primary,
+  .btn--secondary {
+    border: 2px solid currentColor;
+  }
+  
+  .service-card,
+  .problem-card,
+  .pricing-card {
+    border: 2px solid var(--color-text-primary);
+  }
+}
