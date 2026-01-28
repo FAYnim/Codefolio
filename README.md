@@ -24,7 +24,7 @@ A freelance company profile landing page built with vanilla HTML/CSS/JavaScript 
 ## Project Structure
 
 ```
-company-profile-2/
+Codefolio/
 ├── index.php                     # Main landing page
 ├── src/
 │   ├── css/
@@ -36,9 +36,6 @@ company-profile-2/
 │   └── assets/
 │       ├── images/              # Image assets
 │       └── icons/               # Icons and favicon
-├── PRD-company-profile-individual-Faris.md
-├── AGENTS.md                     # Developer guidelines
-├── README.md                     # This file
 └── .gitignore
 ```
 
