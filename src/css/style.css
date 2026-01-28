@@ -72,10 +72,6 @@ a {
   background-color: rgba(255, 255, 255, 0.9);
 }
 
-[data-theme="dark"] .header {
-  background-color: rgba(15, 23, 42, 0.9);
-}
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -142,26 +138,6 @@ a {
 
 .nav__toggle-icon::after {
   bottom: -8px;
-}
-
-/* Theme Toggle Button */
-.theme-toggle {
-  background-color: var(--color-bg-tertiary);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
-  padding: 0.5rem 0.75rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: var(--color-text-primary);
-}
-
-.theme-toggle:hover {
-  background-color: var(--color-accent-light);
-  border-color: var(--color-accent);
 }
 
 /* Buttons */

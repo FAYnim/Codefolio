@@ -1,61 +1,7 @@
 /**
  * Main JavaScript - Company Profile
- * Handles theme toggle, mobile menu, smooth scroll, and animations
+ * Handles mobile menu, smooth scroll, and animations
  */
-
-// Theme Management
-class ThemeManager {
-  constructor() {
-    this.themeToggleBtn = document.getElementById('theme-toggle');
-    this.themeIcon = document.getElementById('theme-icon');
-    this.currentTheme = this.getTheme();
-    
-    this.init();
-  }
-  
-  init() {
-    // Apply saved theme
-    this.applyTheme(this.currentTheme);
-    
-    // Add event listener
-    if (this.themeToggleBtn) {
-      this.themeToggleBtn.addEventListener('click', () => this.toggleTheme());
-    }
-  }
-  
-  getTheme() {
-    // Check localStorage first
-    const savedTheme = localStorage.getItem('theme');
-    if (savedTheme) {
-      return savedTheme;
-    }
-    
-    // Check system preference
-    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      return 'dark';
-    }
-    
-    return 'light';
-  }
-  
-  applyTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    localStorage.setItem('theme', theme);
-    this.updateThemeIcon(theme);
-  }
-  
-  toggleTheme() {
-    const newTheme = this.currentTheme === 'light' ? 'dark' : 'light';
-    this.currentTheme = newTheme;
-    this.applyTheme(newTheme);
-  }
-  
-  updateThemeIcon(theme) {
-    if (this.themeIcon) {
-      this.themeIcon.textContent = theme === 'light' ? '🌙' : '☀️';
-    }
-  }
-}
 
 // Mobile Menu Management
 class MobileMenu {
@@ -304,9 +250,6 @@ class FormValidator {
 
 // Initialize all modules when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
-  // Initialize theme management
-  new ThemeManager();
-  
   // Initialize mobile menu
   new MobileMenu();
   
@@ -338,7 +281,6 @@ document.addEventListener('visibilitychange', () => {
 // Export for potential external use
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = {
-    ThemeManager,
     MobileMenu,
     SmoothScroll,
     ScrollEffects,

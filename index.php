@@ -18,6 +18,9 @@
   
   <title>FayDev - Solusi Web & Digital untuk Personal Brand & UMKM</title>
   
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
   <!-- CSS -->
   <link rel="stylesheet" href="src/css/theme.css">
   <link rel="stylesheet" href="src/css/style.css">
@@ -37,12 +40,6 @@
         <li><a href="#pricing" class="nav__link">Harga</a></li>
         <li><a href="#about" class="nav__link">Tentang</a></li>
         <li><a href="#contact" class="nav__link">Kontak</a></li>
-        <li>
-          <button id="theme-toggle" class="theme-toggle">
-            <span id="theme-icon">🌙</span>
-            <span>Theme</span>
-          </button>
-        </li>
       </ul>
       
       <button class="nav__toggle" id="nav-toggle">
@@ -55,7 +52,7 @@
   <section id="hero" class="hero">
     <div class="container">
       <div class="hero__content">
-        <span class="hero__badge">✨ Solusi Digital Terpercaya</span>
+        <span class="hero__badge"><i class="fa-solid fa-sparkles"></i> Solusi Digital Terpercaya</span>
         
         <h1 class="hero__title">
           Website Lemot & Ribet? <br>
@@ -68,7 +65,7 @@
         
         <div class="hero__cta">
           <a href="#" class="btn btn--primary btn--large wa-cta" data-phone="6281234567890" data-message="Halo, saya tertarik konsultasi untuk website/digital solution">
-            💬 Konsultasi Gratis
+            <i class="fa-brands fa-whatsapp"></i> Konsultasi Gratis
           </a>
           <a href="#services" class="btn btn--secondary btn--large">
             Lihat Layanan
@@ -82,7 +79,7 @@
   <section id="problem" class="problem fade-in-section">
     <div class="container">
       <div class="section-header">
-        <span class="section-header__badge">😤 Masalah Umum</span>
+        <span class="section-header__badge"><i class="fa-solid fa-face-tired"></i> Masalah Umum</span>
         <h2 class="section-header__title">
           Kenapa Bisnis Online Anda Belum Maksimal?
         </h2>
@@ -93,7 +90,7 @@
       
       <div class="problem__grid">
         <div class="problem-card">
-          <div class="problem-card__icon">🐌</div>
+          <div class="problem-card__icon"><i class="fa-solid fa-gauge-simple"></i></div>
           <h3 class="problem-card__title">Website Lemot & Ketinggalan</h3>
           <p class="problem-card__description">
             Website lama yang loading-nya lambat, tampilan jadul, dan tidak mobile-friendly bikin calon customer kabur.
@@ -101,7 +98,7 @@
         </div>
         
         <div class="problem-card">
-          <div class="problem-card__icon">😵</div>
+          <div class="problem-card__icon"><i class="fa-solid fa-clock"></i></div>
           <h3 class="problem-card__title">Manual & Buang Waktu</h3>
           <p class="problem-card__description">
             Balas chat, follow up customer, update data masih manual? Banyak waktu terbuang untuk hal repetitif.
@@ -109,7 +106,7 @@
         </div>
         
         <div class="problem-card">
-          <div class="problem-card__icon">💸</div>
+          <div class="problem-card__icon"><i class="fa-solid fa-sack-dollar"></i></div>
           <h3 class="problem-card__title">Budget Terbatas & Ragu</h3>
           <p class="problem-card__description">
             Takut invest mahal tapi hasilnya tidak sesuai ekspektasi. Pengen solusi yang worth it dan transparan.
@@ -123,7 +120,7 @@
   <section id="services" class="services fade-in-section">
     <div class="container">
       <div class="section-header">
-        <span class="section-header__badge">⚡ Solusi Kami</span>
+        <span class="section-header__badge"><i class="fa-solid fa-bolt"></i> Solusi Kami</span>
         <h2 class="section-header__title">
           Layanan yang Fokus ke Kebutuhan Bisnis Anda
         </h2>
@@ -135,7 +132,7 @@
       <div class="services__grid">
         <!-- Web Development -->
         <div class="service-card">
-          <div class="service-card__icon">🌐</div>
+          <div class="service-card__icon"><i class="fa-solid fa-globe"></i></div>
           <h3 class="service-card__title">Web Development</h3>
           <p class="service-card__description">
             Website modern, responsive, dan cepat yang bikin bisnis Anda terlihat profesional dan dipercaya customer.
@@ -151,7 +148,7 @@
         
         <!-- Chatbot Development -->
         <div class="service-card">
-          <div class="service-card__icon">🤖</div>
+          <div class="service-card__icon"><i class="fa-solid fa-robot"></i></div>
           <h3 class="service-card__title">Chatbot & Automation</h3>
           <p class="service-card__description">
             Otomasi customer service, follow-up leads, dan handle pertanyaan berulang 24/7 tanpa perlu tim tambahan.
@@ -167,7 +164,7 @@
         
         <!-- Custom Tools -->
         <div class="service-card">
-          <div class="service-card__icon">⚙️</div>
+          <div class="service-card__icon"><i class="fa-solid fa-gears"></i></div>
           <h3 class="service-card__title">Custom Tools</h3>
           <p class="service-card__description">
             Tools internal yang bikin operasional bisnis lebih efisien—dari inventory management sampai reporting otomatis.
@@ -235,7 +232,7 @@
   <section id="pricing" class="pricing fade-in-section">
     <div class="container">
       <div class="section-header">
-        <span class="section-header__badge">💰 Harga Transparan</span>
+        <span class="section-header__badge"><i class="fa-solid fa-money-bill-wave"></i> Harga Transparan</span>
         <h2 class="section-header__title">
           Paket Website Development
         </h2>
@@ -266,7 +263,7 @@
         
         <!-- Standard Package (Featured) -->
         <div class="pricing-card pricing-card--featured">
-          <span class="pricing-card__badge">⭐ Paling Populer</span>
+          <span class="pricing-card__badge"><i class="fa-solid fa-star"></i> Paling Populer</span>
           <h3 class="pricing-card__name">Standard</h3>
           <div class="pricing-card__price">Rp 5jt</div>
           <p class="pricing-card__period">One-time payment</p>
@@ -314,7 +311,7 @@
           <strong>Chatbot & Custom Tools:</strong> Mulai dari Rp 3jt (harga disesuaikan kompleksitas)
         </p>
         <a href="#" class="btn btn--primary wa-cta" data-message="Halo, saya ingin diskusi lebih lanjut tentang harga dan paket yang tersedia">
-          💬 Diskusi Custom Package
+          <i class="fa-brands fa-whatsapp"></i> Diskusi Custom Package
         </a>
       </div>
     </div>
@@ -331,7 +328,7 @@
       </p>
       <div class="cta-section__buttons">
         <a href="#" class="btn btn--white btn--large wa-cta" data-message="Halo, saya ingin konsultasi untuk upgrade bisnis digital saya">
-          💬 Mulai Konsultasi Gratis
+          <i class="fa-brands fa-whatsapp"></i> Mulai Konsultasi Gratis
         </a>
         <a href="#pricing" class="btn btn--outline-white btn--large">
           Lihat Harga Lagi
@@ -351,10 +348,10 @@
             Solusi web, chatbot, dan custom tools yang rapi, scalable, dan fokus ke kebutuhan bisnis—tanpa ribet.
           </p>
           <div class="footer__social mt-2">
-            <a href="#" class="footer__social-link" title="Instagram">📷</a>
-            <a href="#" class="footer__social-link" title="LinkedIn">💼</a>
-            <a href="#" class="footer__social-link" title="GitHub">💻</a>
-            <a href="#" class="footer__social-link" title="WhatsApp">💬</a>
+            <a href="#" class="footer__social-link" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="footer__social-link" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#" class="footer__social-link" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="footer__social-link" title="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
           </div>
         </div>
         
@@ -392,7 +389,7 @@
       </div>
       
       <div class="footer__bottom">
-        <p>&copy; <?php echo date('Y'); ?> FayDev. All rights reserved. Built with ❤️ for Personal Brands & UMKM</p>
+        <p>&copy; <?php echo date('Y'); ?> FayDev. All rights reserved. Built with <i class="fa-solid fa-heart" style="color: var(--color-accent);"></i> for Personal Brands & UMKM</p>
       </div>
     </div>
   </footer>
