@@ -5,7 +5,6 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
 <?php include_once 'includes/header.php'; ?>
 
 <main>
-    <!-- Hero Section -->
     <section class="hero" id="hero">
         <div class="container hero-container">
             <div class="hero-content">
@@ -30,7 +29,6 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                 </div>
             </div>
             
-            <!-- Problem Section (Integrated) -->
             <div class="hero-problem">
                 <h3 class="hero-problem-title">Apakah Anda menghadapi masalah ini?</h3>
                 <div class="hero-problem-list">
@@ -63,7 +61,6 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
         </div>
     </section>
 
-    <!-- Services Section -->
     <section class="services section" id="services">
         <div class="container">
             <h2 class="section-title">Layanan Kami</h2>
@@ -72,7 +69,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
             </p>
             
             <div class="services-grid">
-                <!-- Service 1: Web Development -->
+
                 <div class="service-card">
                     <div class="service-card-icon">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -112,8 +109,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         Konsultasi Sekarang
                     </a>
                 </div>
-                
-                <!-- Service 2: Chatbot -->
+
                 <div class="service-card">
                     <div class="service-card-icon" style="background-color: var(--color-accent);">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -151,8 +147,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         Konsultasi Sekarang
                     </a>
                 </div>
-                
-                <!-- Service 3: Custom Tools -->
+
                 <div class="service-card">
                     <div class="service-card-icon" style="background-color: var(--color-primary-dark);">
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -191,11 +186,11 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         Konsultasi Sekarang
                     </a>
                 </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Trust Section -->
     <section class="trust section" id="trust">
         <div class="container trust-container">
             <div class="trust-content">
@@ -237,7 +232,6 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
         </div>
     </section>
 
-    <!-- Portfolio Section -->
     <section class="portfolio section" id="portfolio">
         <div class="container">
             <h2 class="section-title">Portofolio Terbaru</h2>
@@ -246,7 +240,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
             </p>
             
             <div class="portfolio-grid">
-                <!-- Project 1 -->
+
                 <article class="portfolio-card">
                     <img src="src/assets/images/placeholder.svg" 
                          alt="Landing Page untuk Bisnis Fashion" 
@@ -268,7 +262,6 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                     </div>
                 </article>
                 
-                <!-- Project 2 -->
                 <article class="portfolio-card">
                     <img src="src/assets/images/placeholder.svg" 
                          alt="Company Profile untuk Konsultan" 
@@ -290,7 +283,6 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                     </div>
                 </article>
                 
-                <!-- Project 3 -->
                 <article class="portfolio-card">
                     <img src="src/assets/images/placeholder.svg" 
                          alt="E-commerce untuk UMKM" 
@@ -319,7 +311,6 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
         </div>
     </section>
 
-    <!-- Pricing Section -->
     <section class="pricing section" id="pricing">
         <div class="container">
             <h2 class="section-title">Paket Harga</h2>
@@ -328,7 +319,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
             </p>
             
             <div class="pricing-grid">
-                <!-- Basic Package -->
+
                 <div class="pricing-card">
                     <h3 class="pricing-card-name">Basic</h3>
                     <p class="pricing-card-description">
@@ -377,8 +368,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         Pesan Sekarang
                     </a>
                 </div>
-                
-                <!-- Standard Package -->
+
                 <div class="pricing-card pricing-card--featured">
                     <span class="pricing-card-badge">TERPOPULER</span>
                     <h3 class="pricing-card-name">Standard</h3>
@@ -434,8 +424,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         Pesan Sekarang
                     </a>
                 </div>
-                
-                <!-- Premium Package -->
+
                 <div class="pricing-card">
                     <span class="pricing-card-badge">PREMIUM</span>
                     <h3 class="pricing-card-name">Premium</h3>

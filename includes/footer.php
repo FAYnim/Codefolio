@@ -1,6 +1,3 @@
-<?php
-?>
-            <!-- CTA Section -->
             <section class="cta section" id="contact">
                 <div class="container cta-container">
                     <div class="cta-content">
@@ -23,7 +20,6 @@
                 </div>
             </section>
 
-            <!-- Footer -->
             <footer class="footer">
                 <div class="container footer-container">
                     <div class="footer-content">
@@ -83,7 +79,6 @@
             </footer>
         </main>
         
-        <!-- JavaScript -->
         <script src="src/js/main.js"></script>
     </body>
 </html>
