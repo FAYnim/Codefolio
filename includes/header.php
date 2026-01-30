@@ -1,8 +1,4 @@
 <?php
-/**
- * Header Include
- * Contains navigation and header elements
- */
 ?>
 <!DOCTYPE html>
 <html lang="id">

@@ -1,7 +1,4 @@
-/**
- * Main JavaScript
- * Core functionality for the landing page
- */
+/* Main JavaScript - Core functionality for the landing page */
 
 (function() {
     'use strict';

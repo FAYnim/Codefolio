@@ -1,10 +1,4 @@
 <?php
-/**
- * Main Landing Page
- * Company Profile for Freelance Services
- */
-
-// Page Title
 $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda';
 
 ?>

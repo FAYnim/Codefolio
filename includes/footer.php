@@ -1,8 +1,4 @@
 <?php
-/**
- * Footer Include
- * Contains CTA section and footer elements
- */
 ?>
             <!-- CTA Section -->
             <section class="cta section" id="contact">
