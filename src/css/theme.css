@@ -177,7 +177,7 @@ ul, ol {
 }
 
 /* Section Title */
-.section__title {
+.section-title {
     font-size: var(--font-size-3xl);
     font-weight: 700;
     line-height: var(--line-height-tight);
@@ -186,7 +186,7 @@ ul, ol {
     margin-bottom: var(--spacing-md);
 }
 
-.section__subtitle {
+.section-subtitle {
     font-size: var(--font-size-lg);
     color: var(--color-text-secondary);
     text-align: center;

@@ -54,7 +54,7 @@
                 navToggle.addEventListener('click', () => this.toggle());
                 
                 // Close menu when clicking on a link
-                navMenu.querySelectorAll('.nav__link').forEach(link => {
+                navMenu.querySelectorAll('.nav-link').forEach(link => {
                     link.addEventListener('click', () => this.close());
                 });
                 

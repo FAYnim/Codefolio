@@ -29,12 +29,12 @@
     <!-- Header -->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">
+            <a href="#" class="nav-logo">
                 <span class="logo-text">YourBrand</span>
             </a>
             
             <!-- Mobile Menu Toggle -->
-            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
                 <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                     <line x1="3" y1="6" x2="21" y2="6"></line>
                     <line x1="3" y1="12" x2="21" y2="12"></line>
@@ -43,18 +43,18 @@
             </button>
             
             <!-- Navigation Links -->
-            <ul class="nav__menu" id="nav-menu">
-                <li class="nav__item">
-                    <a href="#services" class="nav__link">Layanan</a>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Layanan</a>
                 </li>
-                <li class="nav__item">
-                    <a href="#portfolio" class="nav__link">Portofolio</a>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portofolio</a>
                 </li>
-                <li class="nav__item">
-                    <a href="#pricing" class="nav__link">Harga</a>
+                <li class="nav-item">
+                    <a href="#pricing" class="nav-link">Harga</a>
                 </li>
-                <li class="nav__item">
-                    <a href="#contact" class="nav__link nav__link--cta">WhatsApp</a>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link nav-link--cta">WhatsApp</a>
                 </li>
             </ul>
             
