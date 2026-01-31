@@ -1,9 +1,4 @@
-/* Main Styles - Component styles for the landing page */
-
-/* ============================================
-   BUTTONS
-   ============================================ */
-
+/* Buttons */
 .button {
     display: inline-flex;
     align-items: center;
@@ -65,10 +60,7 @@
     font-size: var(--font-size-lg);
 }
 
-/* ============================================
-   HEADER & NAVIGATION
-   ============================================ */
-
+/* Header */
 .header {
     position: fixed;
     top: 0;
@@ -176,10 +168,7 @@
     display: block;
 }
 
-/* ============================================
-   HERO SECTION
-   ============================================ */
-
+/* Hero Section */
 .hero {
     padding-top: calc(var(--header-height) + var(--spacing-4xl));
     padding-bottom: var(--spacing-4xl);
@@ -239,10 +228,7 @@
     display: none;
 }
 
-/* ============================================
-   PROBLEM SECTION (Integrated into Hero)
-   ============================================ */
-
+/* Hero Problem Section */
 .hero-problem {
     margin-top: var(--spacing-3xl);
     padding: var(--spacing-xl);
@@ -278,10 +264,7 @@
     margin-top: 2px;
 }
 
-/* ============================================
-   SERVICES SECTION
-   ============================================ */
-
+/* Services Section */
 .services {
     background-color: var(--color-bg);
 }
@@ -368,10 +351,7 @@
     flex-shrink: 0;
 }
 
-/* ============================================
-   TRUST SECTION
-   ============================================ */
-
+/* Trust Section */
 .trust {
     background-color: var(--color-bg-secondary);
 }
@@ -436,10 +416,7 @@
     color: var(--color-text-secondary);
 }
 
-/* ============================================
-   PORTFOLIO SECTION
-   ============================================ */
-
+/* Portfolio Section */
 .portfolio {
     background-color: var(--color-bg);
 }
@@ -522,10 +499,7 @@
     transform: translateX(4px);
 }
 
-/* ============================================
-   PRICING SECTION
-   ============================================ */
-
+/* Pricing Section */
 .pricing {
     background-color: var(--color-bg-secondary);
 }
@@ -619,10 +593,7 @@
     width: 100%;
 }
 
-/* ============================================
-   CTA SECTION
-   ============================================ */
-
+/* CTA Section */
 .cta {
     background-color: var(--color-bg);
     padding-top: var(--spacing-4xl);
@@ -658,10 +629,7 @@
     height: 24px;
 }
 
-/* ============================================
-   FOOTER
-   ============================================ */
-
+/* Footer Section */
 .footer {
     background-color: var(--color-bg-secondary);
     padding: var(--spacing-3xl) 0 var(--spacing-xl);
@@ -771,10 +739,7 @@
     font-size: var(--font-size-sm);
 }
 
-/* ============================================
-   ICONS
-   ============================================ */
-
+/* Icons */
 .icon {
     width: 24px;
     height: 24px;
@@ -789,10 +754,7 @@
     color: var(--color-primary);
 }
 
-/* ============================================
-   UTILITIES
-   ============================================ */
-
+/* Utility Classes */
 .text-center {
     text-align: center;
 }

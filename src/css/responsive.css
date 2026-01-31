@@ -1,8 +1,4 @@
-/* Responsive Styles - Mobile-first approach */
-
-/* ============================================
-   SMALL SCREENS (640px+)
-   ============================================ */
+/* SMALL SCREENS (640px+) */
 
 @media (min-width: 640px) {
     :root {
@@ -22,9 +18,7 @@
     }
 }
 
-/* ============================================
-   MEDIUM SCREENS (768px+)
-   ============================================ */
+/* MEDIUM SCREENS (768px+) */
 
 @media (min-width: 768px) {
     :root {
@@ -78,9 +72,7 @@
     }
 }
 
-/* ============================================
-   LARGE SCREENS (1024px+)
-   ============================================ */
+/* LARGE SCREENS (1024px+) */
 
 @media (min-width: 1024px) {
     :root {
@@ -159,9 +151,7 @@
     }
 }
 
-/* ============================================
-   EXTRA LARGE SCREENS (1280px+)
-   ============================================ */
+/* EXTRA LARGE SCREENS (1280px+) */
 
 @media (min-width: 1280px) {
     .container {
@@ -174,9 +164,7 @@
     }
 }
 
-/* ============================================
-   MOBILE STYLES (Default - under 768px)
-   ============================================ */
+/* MOBILE STYLES (Default - under 768px) */
 
 @media (max-width: 767px) {
     :root {
@@ -349,9 +337,7 @@
     }
 }
 
-/* ============================================
-   ACCESSIBILITY
-   ============================================ */
+/* ACCESSIBILITY */
 
 @media (prefers-reduced-motion: reduce) {
     *,
