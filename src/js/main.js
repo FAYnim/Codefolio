@@ -1,20 +1,14 @@
-/* Main JavaScript - Core functionality for the landing page */
-
 (function() {
     'use strict';
 
-    // ============================================
     // DOM Elements
-    // ============================================
     const header = document.getElementById('header');
     const navToggle = document.getElementById('nav-toggle');
     const navMenu = document.getElementById('nav-menu');
     const themeToggle = document.getElementById('theme-toggle');
     const html = document.documentElement;
 
-    // ============================================
     // Theme Management
-    // ============================================
     const theme = {
         key: 'theme',
         defaultValue: 'light',
@@ -40,9 +34,7 @@
         }
     };
 
-    // ============================================
     // Mobile Navigation
-    // ============================================
     const nav = {
         isOpen: false,
         
@@ -81,9 +73,7 @@
         }
     };
 
-    // ============================================
     // Header Scroll Effect
-    // ============================================
     const headerScroll = {
         lastScroll: 0,
         
@@ -104,9 +94,7 @@
         }
     };
 
-    // ============================================
     // Smooth Scroll for Anchor Links
-    // ============================================
     const smoothScroll = {
         init() {
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -136,9 +124,7 @@
         }
     };
 
-    // ============================================
     // Animate on Scroll
-    // ============================================
     const animateOnScroll = {
         init() {
             const observerOptions = {
@@ -163,9 +149,7 @@
         }
     };
 
-    // ============================================
     // Contact Form Handler (if added later)
-    // ============================================
     const formHandler = {
         init() {
             const forms = document.querySelectorAll('form');
@@ -180,9 +164,7 @@
         }
     };
 
-    // ============================================
     // Initialize All Modules
-    // ============================================
     function init() {
         theme.init();
         nav.init();
