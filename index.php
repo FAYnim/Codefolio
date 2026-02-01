@@ -18,12 +18,12 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                 </p>
                 <div class="hero-cta">
                     <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20tentang%20jasa%20web%20development" 
-                       class="button button--whatsapp" 
+                       class="button button-whatsapp" 
                        target="_blank" 
                        rel="noopener noreferrer">
                         Konsultasi Gratis
                     </a>
-                    <a href="#portfolio" class="button button--secondary">
+                    <a href="#portfolio" class="button button-secondary">
                         Lihat Portofolio
                     </a>
                 </div>
@@ -103,7 +103,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         </div>
                     </div>
                     <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20tentang%20Web%20Development" 
-                       class="button button--primary button--sm" 
+                       class="button button-primary button-sm" 
                        target="_blank" 
                        rel="noopener noreferrer">
                         Konsultasi Sekarang
@@ -141,7 +141,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         </div>
                     </div>
                     <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20tentang%20Chatbot" 
-                       class="button button--primary button--sm" 
+                       class="button button-primary button-sm" 
                        target="_blank" 
                        rel="noopener noreferrer">
                         Konsultasi Sekarang
@@ -180,7 +180,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         </div>
                     </div>
                     <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20tentang%20Custom%20Tools" 
-                       class="button button--primary button--sm" 
+                       class="button button-primary button-sm" 
                        target="_blank" 
                        rel="noopener noreferrer">
                         Konsultasi Sekarang
@@ -306,7 +306,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
             </div>
             
             <div class="text-center mt-2">
-                <a href="#" class="button button--secondary">Lihat Semua Portofolio</a>
+                <a href="#" class="button button-secondary">Lihat Semua Portofolio</a>
             </div>
         </div>
     </section>
@@ -362,14 +362,14 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         </li>
                     </ul>
                     <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20pemesanan%20Paket%20Basic" 
-                       class="button button--secondary pricing-card-cta" 
+                       class="button button-secondary pricing-card-cta" 
                        target="_blank" 
                        rel="noopener noreferrer">
                         Pesan Sekarang
                     </a>
                 </div>
 
-                <div class="pricing-card pricing-card--featured">
+                <div class="pricing-card pricing-card-featured">
                     <span class="pricing-card-badge">TERPOPULER</span>
                     <h3 class="pricing-card-name">Standard</h3>
                     <p class="pricing-card-description">
@@ -418,7 +418,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         </li>
                     </ul>
                     <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20pemesanan%20Paket%20Standard" 
-                       class="button button--primary pricing-card-cta" 
+                       class="button button-primary pricing-card-cta" 
                        target="_blank" 
                        rel="noopener noreferrer">
                         Pesan Sekarang
@@ -474,7 +474,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         </li>
                     </ul>
                     <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20Paket%20Premium" 
-                       class="button button--secondary pricing-card-cta" 
+                       class="button button-secondary pricing-card-cta" 
                        target="_blank" 
                        rel="noopener noreferrer">
                         Konsultasi

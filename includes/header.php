@@ -44,7 +44,7 @@
                     <a href="#pricing" class="nav-link">Harga</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link nav-link--cta">WhatsApp</a>
+                    <a href="#contact" class="nav-link nav-link-cta">WhatsApp</a>
                 </li>
             </ul>
 

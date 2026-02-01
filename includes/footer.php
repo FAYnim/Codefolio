@@ -7,7 +7,7 @@
                             Kami siap membantu Anda membangun kehadiran digital yang profesional.
                         </p>
                         <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20tentang%20jasa%20web%20development" 
-                           class="button button--whatsapp" 
+                           class="button button-whatsapp" 
                            target="_blank" 
                            rel="noopener noreferrer">
                             <svg class="icon-whatsapp" viewBox="0 0 24 24" fill="currentColor">

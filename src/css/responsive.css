@@ -63,7 +63,7 @@
         align-items: center;
     }
     
-    .pricing-card--featured {
+    .pricing-card-featured {
         transform: scale(1.05);
     }
     
@@ -290,7 +290,7 @@
         grid-template-columns: 1fr;
     }
     
-    .pricing-card--featured {
+    .pricing-card-featured {
         transform: none;
     }
     
@@ -313,7 +313,7 @@
         font-size: var(--font-size-base);
     }
     
-    .cta .button--whatsapp {
+    .cta .button-whatsapp {
         width: 100%;
         max-width: 300px;
     }

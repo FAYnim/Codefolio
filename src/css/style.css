@@ -13,49 +13,49 @@
     text-decoration: none;
 }
 
-.button--primary {
+.button-primary {
     background-color: var(--color-primary);
     color: white;
 }
 
-.button--primary:hover {
+.button-primary:hover {
     background-color: var(--color-primary-dark);
     color: white;
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
 }
 
-.button--secondary {
+.button-secondary {
     background-color: transparent;
     color: var(--color-text);
     border: 2px solid var(--color-border);
 }
 
-.button--secondary:hover {
+.button-secondary:hover {
     border-color: var(--color-primary);
     color: var(--color-primary);
 }
 
-.button--whatsapp {
+.button-whatsapp {
     background-color: var(--color-whatsapp);
     color: white;
     font-size: var(--font-size-lg);
     padding: var(--spacing-lg) var(--spacing-2xl);
 }
 
-.button--whatsapp:hover {
+.button-whatsapp:hover {
     background-color: var(--color-whatsapp-dark);
     color: white;
     transform: translateY(-2px);
     box-shadow: var(--shadow-xl);
 }
 
-.button--sm {
+.button-sm {
     padding: var(--spacing-sm) var(--spacing-md);
     font-size: var(--font-size-sm);
 }
 
-.button--lg {
+.button-lg {
     padding: var(--spacing-lg) var(--spacing-2xl);
     font-size: var(--font-size-lg);
 }
@@ -110,14 +110,14 @@
     color: var(--color-primary);
 }
 
-.nav-link--cta {
+.nav-link-cta {
     background-color: var(--color-whatsapp);
     color: white;
     padding: var(--spacing-sm) var(--spacing-md);
     border-radius: var(--radius-full);
 }
 
-.nav-link--cta:hover {
+.nav-link-cta:hover {
     background-color: var(--color-whatsapp-dark);
     color: white;
 }
@@ -624,7 +624,7 @@
     color: var(--color-text-muted);
 }
 
-.cta .button--whatsapp svg {
+.cta .button-whatsapp svg {
     width: 24px;
     height: 24px;
 }
