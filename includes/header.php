@@ -24,15 +24,15 @@
                 <span class="logo-text">YourBrand</span>
             </a>
 
-            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
-                <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                    <line x1="3" y1="6" x2="21" y2="6"></line>
-                    <line x1="3" y1="12" x2="21" y2="12"></line>
-                    <line x1="3" y1="18" x2="21" y2="18"></line>
-                </svg>
-            </button>
-            
             <div class="nav-right">
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                </button>
+                
                 <ul class="nav-menu" id="nav-menu">
                     <li class="nav-item">
                         <a href="#services" class="nav-link">Layanan</a>

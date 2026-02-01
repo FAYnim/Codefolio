@@ -184,7 +184,18 @@
     .nav-right {
         display: flex;
         align-items: center;
-        gap: var(--spacing-sm);
+        gap: var(--spacing-xs);
+    }
+    
+    .nav-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        order: 1;
+    }
+    
+    .theme-toggle {
+        order: 2;
     }
     
     .nav-menu {
@@ -208,12 +219,6 @@
         transform: translateY(0);
         opacity: 1;
         visibility: visible;
-    }
-    
-    .nav-toggle {
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
     
     .nav-toggle.active .icon-menu {
