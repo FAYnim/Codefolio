@@ -80,6 +80,12 @@
     height: 100%;
 }
 
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+}
+
 .nav-logo {
     font-size: var(--font-size-xl);
     font-weight: 700;

@@ -85,6 +85,12 @@
         display: none;
     }
     
+    .nav-right {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-lg);
+    }
+    
     .nav-menu {
         display: flex;
         position: static;
@@ -95,6 +101,9 @@
         border: none;
         padding: 0;
         overflow: visible;
+        transform: none;
+        opacity: 1;
+        visibility: visible;
     }
     
     /* Hero */
@@ -172,6 +181,12 @@
     }
     
     /* Mobile Navigation */
+    .nav-right {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-sm);
+    }
+    
     .nav-menu {
         position: fixed;
         top: var(--header-height);
