@@ -8,13 +8,13 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
     <section class="hero" id="hero">
         <div class="container hero-container">
             <div class="hero-content">
-                <span class="hero-badge">Jasa Web Development Terpercaya</span>
+                <!-- <span class="hero-badge">Jasa Web Development Terpercaya</span> -->
                 <h1 class="hero-title">
                     Wujudkan <span>Website Impian</span> untuk Bisnis Anda
                 </h1>
                 <p class="hero-description">
-                    Solusi web profesional yang rapi, scalable, dan fokus ke kebutuhan bisnis—tanpa ribet. 
-                    Tingkatkan kepercayaan客户 dan tingkatkan penjualan.
+                    Solusi web profesional yang rapi, scalable, dan fokus ke kebutuhan bisnis tanpa ribet. 
+                    Tingkatkan kepercayaan dan tingkatkan penjualan.
                 </p>
                 <div class="hero-cta">
                     <a href="https://wa.me/6281234567890?text=Halo,%20saya%20ingin%20konsultasi%20tentang%20jasa%20web%20development" 
@@ -54,7 +54,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <polyline points="20 6 9 17 4 12"></polyline>
                         </svg>
-                        <span>Konversi rendah dan kehilangan客户 potensial</span>
+                        <span>Konversi rendah dan kehilangan potensial</span>
                     </div>
                 </div>
             </div>
@@ -118,7 +118,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                     </div>
                     <h3 class="service-card-title">Chatbot Development</h3>
                     <p class="service-card-description">
-                        Otomasi客服 dengan chatbot pintar untuk WhatsApp dan website. Hemat waktu dan efisien.
+                        Otomasi dengan chatbot pintar untuk WhatsApp dan website. Hemat waktu dan efisien.
                     </p>
                     <div class="service-card-features">
                         <div class="service-card-feature">
