@@ -157,9 +157,8 @@
     background-color: var(--color-bg-tertiary);
 }
 
-.theme-toggle svg {
-    width: 20px;
-    height: 20px;
+.theme-toggle i {
+    font-size: 20px;
 }
 
 .theme-toggle .icon-sun {
@@ -262,9 +261,8 @@
     color: var(--color-text-secondary);
 }
 
-.hero-problem-item svg {
-    width: 20px;
-    height: 20px;
+.hero-problem-item i {
+    font-size: 20px;
     flex-shrink: 0;
     color: var(--color-accent);
     margin-top: 2px;
@@ -307,9 +305,8 @@
     margin-bottom: var(--spacing-lg);
 }
 
-.service-card-icon svg {
-    width: 28px;
-    height: 28px;
+.service-card-icon i {
+    font-size: 28px;
 }
 
 .service-card-title {
@@ -350,9 +347,8 @@
     border-bottom: none;
 }
 
-.service-card-feature svg {
-    width: 16px;
-    height: 16px;
+.service-card-feature i {
+    font-size: 16px;
     color: var(--color-accent);
     flex-shrink: 0;
 }
@@ -495,13 +491,12 @@
     color: var(--color-primary-dark);
 }
 
-.portfolio-card-link svg {
-    width: 16px;
-    height: 16px;
+.portfolio-card-link i {
+    font-size: 16px;
     transition: transform var(--transition-fast);
 }
 
-.portfolio-card-link:hover svg {
+.portfolio-card-link:hover i {
     transform: translateX(4px);
 }
 
@@ -587,9 +582,8 @@
     font-size: var(--font-size-sm);
 }
 
-.pricing-card-feature svg {
-    width: 18px;
-    height: 18px;
+.pricing-card-feature i {
+    font-size: 18px;
     color: var(--color-accent);
     flex-shrink: 0;
     margin-top: 1px;
@@ -630,9 +624,8 @@
     color: var(--color-text-muted);
 }
 
-.cta .button-whatsapp svg {
-    width: 24px;
-    height: 24px;
+.cta .button-whatsapp i {
+    font-size: 24px;
 }
 
 /* Footer Section */
@@ -729,9 +722,8 @@
     color: white;
 }
 
-.social-icons svg {
-    width: 18px;
-    height: 18px;
+.social-icons i {
+    font-size: 18px;
 }
 
 .footer-bottom {

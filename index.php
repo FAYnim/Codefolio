@@ -33,27 +33,19 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                 <h3 class="hero-problem-title">Apakah Anda menghadapi masalah ini?</h3>
                 <div class="hero-problem-list">
                     <div class="hero-problem-item">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
+                        <i class="fas fa-check"></i>
                         <span>Website lambat dan tidak responsif di mobile</span>
                     </div>
                     <div class="hero-problem-item">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
+                        <i class="fas fa-check"></i>
                         <span>Tampilan tidak profesional dan tertinggal</span>
                     </div>
                     <div class="hero-problem-item">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
+                        <i class="fas fa-check"></i>
                         <span>Sulit diperluas dan tidak SEO-friendly</span>
                     </div>
                     <div class="hero-problem-item">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="20 6 9 17 4 12"></polyline>
-                        </svg>
+                        <i class="fas fa-check"></i>
                         <span>Konversi rendah dan kehilangan potensial</span>
                     </div>
                 </div>
@@ -72,11 +64,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
 
                 <div class="service-card">
                     <div class="service-card-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
-                            <line x1="8" y1="21" x2="16" y2="21"></line>
-                            <line x1="12" y1="17" x2="12" y2="21"></line>
-                        </svg>
+                        <i class="fas fa-desktop"></i>
                     </div>
                     <h3 class="service-card-title">Web Development</h3>
                     <p class="service-card-description">
@@ -84,21 +72,15 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                     </p>
                     <div class="service-card-features">
                         <div class="service-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Desain modern & responsif</span>
                         </div>
                         <div class="service-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>SEO optimized</span>
                         </div>
                         <div class="service-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Fast loading</span>
                         </div>
                     </div>
@@ -112,9 +94,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
 
                 <div class="service-card">
                     <div class="service-card-icon" style="background-color: var(--color-accent);">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                        </svg>
+                        <i class="fas fa-comments"></i>
                     </div>
                     <h3 class="service-card-title">Chatbot Development</h3>
                     <p class="service-card-description">
@@ -122,21 +102,15 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                     </p>
                     <div class="service-card-features">
                         <div class="service-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Auto-reply 24/7</span>
                         </div>
                         <div class="service-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Integrasi WhatsApp API</span>
                         </div>
                         <div class="service-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Custom flows</span>
                         </div>
                     </div>
@@ -150,10 +124,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
 
                 <div class="service-card">
                     <div class="service-card-icon" style="background-color: var(--color-primary-dark);">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                            <polyline points="16 18 22 12 16 6"></polyline>
-                            <polyline points="8 6 2 12 8 18"></polyline>
-                        </svg>
+                        <i class="fas fa-code"></i>
                     </div>
                     <h3 class="service-card-title">Custom Tools</h3>
                     <p class="service-card-description">
@@ -161,21 +132,15 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                     </p>
                     <div class="service-card-features">
                         <div class="service-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Automasi workflow</span>
                         </div>
                         <div class="service-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Dashboard analytics</span>
                         </div>
                         <div class="service-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>API integration</span>
                         </div>
                     </div>
@@ -254,10 +219,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         </p>
                         <a href="#" class="portfolio-card-link">
                             Lihat Detail
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                                <polyline points="12 5 19 12 12 19"></polyline>
-                            </svg>
+                            <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </article>
@@ -275,10 +237,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         </p>
                         <a href="#" class="portfolio-card-link">
                             Lihat Detail
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                                <polyline points="12 5 19 12 12 19"></polyline>
-                            </svg>
+                            <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </article>
@@ -296,10 +255,7 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                         </p>
                         <a href="#" class="portfolio-card-link">
                             Lihat Detail
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <line x1="5" y1="12" x2="19" y2="12"></line>
-                                <polyline points="12 5 19 12 12 19"></polyline>
-                            </svg>
+                            <i class="fas fa-arrow-right"></i>
                         </a>
                     </div>
                 </article>
@@ -331,33 +287,23 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                     </div>
                     <ul class="pricing-card-features">
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>1 halaman landing page</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Desain responsif</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Form kontak</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Integrasi WhatsApp</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Revisi 2x</span>
                         </li>
                     </ul>
@@ -381,39 +327,27 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                     </div>
                     <ul class="pricing-card-features">
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>5 halaman website</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Desain custom premium</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>SEO optimization</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Portfolio section</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Revisi 5x</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Gratis maintenance 3 bulan</span>
                         </li>
                     </ul>
@@ -437,39 +371,27 @@ $pageTitle = 'Jasa Web Development - Landing Page Profesional untuk Bisnis Anda'
                     </div>
                     <ul class="pricing-card-features">
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>10+ halaman website</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Design eksklusif</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>CMS admin panel</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Integrasi payment gateway</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Revisi unlimited</span>
                         </li>
                         <li class="pricing-card-feature">
-                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="20 6 9 17 4 12"></polyline>
-                            </svg>
+                            <i class="fas fa-check"></i>
                             <span>Gratis maintenance 6 bulan</span>
                         </li>
                     </ul>
